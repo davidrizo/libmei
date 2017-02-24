@@ -43,8 +43,6 @@ mapped:
         std::string
     data.FONTNAME:
         std::string
-    data.FONTSIZE:
-        int
     data.HEADSHAPE:
         data_HEADSHAPE_list
     data.ISODATE:
@@ -101,6 +99,8 @@ mapped:
 defaults:
     data_ARTICULATION_List:
         std::vector<data_ARTICULATION>()
+    data_FONTSIZE:
+        data_FONTSIZE()
     data_MEASUREBEAT:
         std::make_pair(-1,-1.0)
     data_MIDIBPM:
